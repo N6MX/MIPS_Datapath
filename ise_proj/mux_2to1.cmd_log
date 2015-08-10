@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/dylon/MIPS_Datapath/mux_2to1.xst" -ofn "/home/dylon/MIPS_Datapath/mux_2to1.syr" 
+xst -intstyle ise -ifn "/home/dylon/MIPS_Datapath/mux_2to1.xst" -ofn "/home/dylon/MIPS_Datapath/mux_2to1.syr" 
+xst -intstyle ise -ifn "/home/dylon/MIPS_Datapath/mux_2to1.xst" -ofn "/home/dylon/MIPS_Datapath/mux_2to1.syr" 
+xst -intstyle ise -ifn "/home/dylon/MIPS_Datapath/mux_2to1.xst" -ofn "/home/dylon/MIPS_Datapath/mux_2to1.syr" 
+xst -intstyle ise -ifn "/home/dylon/MIPS_Datapath/mux_2to1.xst" -ofn "/home/dylon/MIPS_Datapath/mux_2to1.syr" 
+xst -intstyle ise -ifn "/home/dylon/MIPS_Datapath/mux_2to1.xst" -ofn "/home/dylon/MIPS_Datapath/mux_2to1.syr" 

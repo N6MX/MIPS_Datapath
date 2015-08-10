@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/dylon/MIPS_Datapath/impact.xsl
+OUTFILE=/home/dylon/MIPS_Datapath/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/home/dylon/MIPS_Datapath
+LICENSE=iMPACT
+USER_INFO=iMPACT

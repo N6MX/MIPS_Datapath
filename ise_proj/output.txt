@@ -1,0 +1,10 @@
+Storage Target: BPI Flash Single FPGA
+Storage Family: Spartan6
+128K
+FF
+prom_file
+/home/dylon/MIPS_Datapath/
+
+MCS
+x8
+No

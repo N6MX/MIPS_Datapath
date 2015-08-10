@@ -1,0 +1,280 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml data_reg.twx data_reg.ncd -o data_reg.twr data_reg.pcf
+
+Design file:              data_reg.ncd
+Physical constraint file: data_reg.pcf
+Device,package,speed:     xc6slx25,ftg256,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock Clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+Reset       |    6.779(R)|      SLOW  |   -0.329(R)|      FAST  |Clk_BUFGP         |   0.000|
+wr_data<0>  |    2.663(R)|      SLOW  |   -0.233(R)|      SLOW  |Clk_BUFGP         |   0.000|
+wr_data<1>  |    2.463(R)|      SLOW  |   -0.202(R)|      SLOW  |Clk_BUFGP         |   0.000|
+wr_data<2>  |    2.851(R)|      SLOW  |   -0.457(R)|      SLOW  |Clk_BUFGP         |   0.000|
+wr_data<3>  |    3.044(R)|      SLOW  |   -0.352(R)|      SLOW  |Clk_BUFGP         |   0.000|
+wr_data<4>  |    2.705(R)|      SLOW  |   -0.430(R)|      SLOW  |Clk_BUFGP         |   0.000|
+wr_data<5>  |    2.969(R)|      SLOW  |   -0.193(R)|      SLOW  |Clk_BUFGP         |   0.000|
+wr_data<6>  |    3.090(R)|      SLOW  |   -0.456(R)|      SLOW  |Clk_BUFGP         |   0.000|
+wr_data<7>  |    3.467(R)|      SLOW  |   -0.318(R)|      SLOW  |Clk_BUFGP         |   0.000|
+wr_data<8>  |    2.187(R)|      SLOW  |    0.081(R)|      SLOW  |Clk_BUFGP         |   0.000|
+wr_data<9>  |    2.663(R)|      SLOW  |   -0.404(R)|      SLOW  |Clk_BUFGP         |   0.000|
+wr_data<10> |    2.357(R)|      SLOW  |   -0.003(R)|      SLOW  |Clk_BUFGP         |   0.000|
+wr_data<11> |    3.309(R)|      SLOW  |   -0.367(R)|      SLOW  |Clk_BUFGP         |   0.000|
+wr_data<12> |    2.450(R)|      SLOW  |    0.324(R)|      SLOW  |Clk_BUFGP         |   0.000|
+wr_data<13> |    2.736(R)|      SLOW  |    0.068(R)|      SLOW  |Clk_BUFGP         |   0.000|
+wr_data<14> |    2.916(R)|      SLOW  |    0.008(R)|      SLOW  |Clk_BUFGP         |   0.000|
+wr_data<15> |    3.017(R)|      SLOW  |   -0.282(R)|      SLOW  |Clk_BUFGP         |   0.000|
+wr_enable   |    5.249(R)|      SLOW  |   -1.028(R)|      FAST  |Clk_BUFGP         |   0.000|
+wr_reg<0>   |    4.981(R)|      SLOW  |   -1.115(R)|      FAST  |Clk_BUFGP         |   0.000|
+wr_reg<1>   |    5.234(R)|      SLOW  |   -1.207(R)|      FAST  |Clk_BUFGP         |   0.000|
+wr_reg<2>   |    5.398(R)|      SLOW  |   -0.966(R)|      FAST  |Clk_BUFGP         |   0.000|
+wr_reg<3>   |    5.898(R)|      SLOW  |   -1.131(R)|      FAST  |Clk_BUFGP         |   0.000|
+wr_reg<4>   |    6.048(R)|      SLOW  |   -1.032(R)|      FAST  |Clk_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock Clk to Pad
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination  |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+rd_data_1<0> |        10.459(R)|      SLOW  |         4.706(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_1<1> |         9.951(R)|      SLOW  |         4.543(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_1<2> |         9.990(R)|      SLOW  |         4.786(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_1<3> |         9.971(R)|      SLOW  |         4.634(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_1<4> |        10.505(R)|      SLOW  |         4.704(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_1<5> |        10.332(R)|      SLOW  |         4.651(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_1<6> |        10.548(R)|      SLOW  |         4.893(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_1<7> |        10.091(R)|      SLOW  |         4.534(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_1<8> |        10.683(R)|      SLOW  |         4.790(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_1<9> |        10.323(R)|      SLOW  |         4.783(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_1<10>|        10.261(R)|      SLOW  |         4.674(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_1<11>|        10.590(R)|      SLOW  |         4.932(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_1<12>|        11.714(R)|      SLOW  |         5.519(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_1<13>|        10.278(R)|      SLOW  |         4.971(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_1<14>|        10.507(R)|      SLOW  |         5.218(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_1<15>|        11.080(R)|      SLOW  |         5.139(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_2<0> |        11.394(R)|      SLOW  |         5.264(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_2<1> |        11.152(R)|      SLOW  |         5.351(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_2<2> |        11.007(R)|      SLOW  |         5.214(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_2<3> |        11.055(R)|      SLOW  |         5.006(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_2<4> |        11.486(R)|      SLOW  |         5.456(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_2<5> |        11.110(R)|      SLOW  |         5.438(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_2<6> |        10.947(R)|      SLOW  |         5.210(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_2<7> |        10.626(R)|      SLOW  |         4.905(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_2<8> |        11.855(R)|      SLOW  |         5.800(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_2<9> |        11.259(R)|      SLOW  |         5.574(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_2<10>|        11.448(R)|      SLOW  |         5.573(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_2<11>|        11.140(R)|      SLOW  |         5.594(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_2<12>|        12.258(R)|      SLOW  |         5.782(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_2<13>|        11.784(R)|      SLOW  |         5.820(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_2<14>|        11.420(R)|      SLOW  |         5.721(R)|      FAST  |Clk_BUFGP         |   0.000|
+rd_data_2<15>|        11.629(R)|      SLOW  |         5.608(R)|      FAST  |Clk_BUFGP         |   0.000|
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+rd_reg_1<0>    |rd_data_1<0>   |   10.838|
+rd_reg_1<0>    |rd_data_1<1>   |   10.952|
+rd_reg_1<0>    |rd_data_1<2>   |   10.048|
+rd_reg_1<0>    |rd_data_1<3>   |   10.971|
+rd_reg_1<0>    |rd_data_1<4>   |   11.539|
+rd_reg_1<0>    |rd_data_1<5>   |   11.579|
+rd_reg_1<0>    |rd_data_1<6>   |   11.181|
+rd_reg_1<0>    |rd_data_1<7>   |   10.759|
+rd_reg_1<0>    |rd_data_1<8>   |   12.141|
+rd_reg_1<0>    |rd_data_1<9>   |   11.680|
+rd_reg_1<0>    |rd_data_1<10>  |   11.450|
+rd_reg_1<0>    |rd_data_1<11>  |   11.710|
+rd_reg_1<0>    |rd_data_1<12>  |   13.843|
+rd_reg_1<0>    |rd_data_1<13>  |   12.813|
+rd_reg_1<0>    |rd_data_1<14>  |   13.029|
+rd_reg_1<0>    |rd_data_1<15>  |   13.713|
+rd_reg_1<1>    |rd_data_1<0>   |   10.331|
+rd_reg_1<1>    |rd_data_1<1>   |   10.567|
+rd_reg_1<1>    |rd_data_1<2>   |    9.937|
+rd_reg_1<1>    |rd_data_1<3>   |   10.756|
+rd_reg_1<1>    |rd_data_1<4>   |   11.016|
+rd_reg_1<1>    |rd_data_1<5>   |   11.238|
+rd_reg_1<1>    |rd_data_1<6>   |   11.583|
+rd_reg_1<1>    |rd_data_1<7>   |   10.405|
+rd_reg_1<1>    |rd_data_1<8>   |   10.702|
+rd_reg_1<1>    |rd_data_1<9>   |   10.649|
+rd_reg_1<1>    |rd_data_1<10>  |   10.251|
+rd_reg_1<1>    |rd_data_1<11>  |   10.507|
+rd_reg_1<1>    |rd_data_1<12>  |   12.683|
+rd_reg_1<1>    |rd_data_1<13>  |   11.558|
+rd_reg_1<1>    |rd_data_1<14>  |   11.557|
+rd_reg_1<1>    |rd_data_1<15>  |   11.845|
+rd_reg_1<2>    |rd_data_1<0>   |    8.986|
+rd_reg_1<2>    |rd_data_1<1>   |    8.297|
+rd_reg_1<2>    |rd_data_1<2>   |    9.285|
+rd_reg_1<2>    |rd_data_1<3>   |    8.304|
+rd_reg_1<2>    |rd_data_1<4>   |    9.548|
+rd_reg_1<2>    |rd_data_1<5>   |    8.697|
+rd_reg_1<2>    |rd_data_1<6>   |    9.383|
+rd_reg_1<2>    |rd_data_1<7>   |    9.234|
+rd_reg_1<2>    |rd_data_1<8>   |    9.010|
+rd_reg_1<2>    |rd_data_1<9>   |    9.149|
+rd_reg_1<2>    |rd_data_1<10>  |    9.215|
+rd_reg_1<2>    |rd_data_1<11>  |    9.816|
+rd_reg_1<2>    |rd_data_1<12>  |   11.502|
+rd_reg_1<2>    |rd_data_1<13>  |   11.092|
+rd_reg_1<2>    |rd_data_1<14>  |   11.423|
+rd_reg_1<2>    |rd_data_1<15>  |   11.223|
+rd_reg_1<3>    |rd_data_1<0>   |    8.616|
+rd_reg_1<3>    |rd_data_1<1>   |    8.215|
+rd_reg_1<3>    |rd_data_1<2>   |    8.841|
+rd_reg_1<3>    |rd_data_1<3>   |    8.020|
+rd_reg_1<3>    |rd_data_1<4>   |    9.493|
+rd_reg_1<3>    |rd_data_1<5>   |    8.814|
+rd_reg_1<3>    |rd_data_1<6>   |    8.965|
+rd_reg_1<3>    |rd_data_1<7>   |    9.223|
+rd_reg_1<3>    |rd_data_1<8>   |    8.534|
+rd_reg_1<3>    |rd_data_1<9>   |    8.858|
+rd_reg_1<3>    |rd_data_1<10>  |    8.522|
+rd_reg_1<3>    |rd_data_1<11>  |    9.207|
+rd_reg_1<3>    |rd_data_1<12>  |   11.137|
+rd_reg_1<3>    |rd_data_1<13>  |   10.213|
+rd_reg_1<3>    |rd_data_1<14>  |   11.122|
+rd_reg_1<3>    |rd_data_1<15>  |   10.825|
+rd_reg_1<4>    |rd_data_1<0>   |    8.592|
+rd_reg_1<4>    |rd_data_1<1>   |    8.087|
+rd_reg_1<4>    |rd_data_1<2>   |    8.673|
+rd_reg_1<4>    |rd_data_1<3>   |    7.934|
+rd_reg_1<4>    |rd_data_1<4>   |    9.537|
+rd_reg_1<4>    |rd_data_1<5>   |    8.681|
+rd_reg_1<4>    |rd_data_1<6>   |    9.072|
+rd_reg_1<4>    |rd_data_1<7>   |    9.415|
+rd_reg_1<4>    |rd_data_1<8>   |    8.709|
+rd_reg_1<4>    |rd_data_1<9>   |    8.820|
+rd_reg_1<4>    |rd_data_1<10>  |    8.525|
+rd_reg_1<4>    |rd_data_1<11>  |    9.229|
+rd_reg_1<4>    |rd_data_1<12>  |   10.856|
+rd_reg_1<4>    |rd_data_1<13>  |   10.186|
+rd_reg_1<4>    |rd_data_1<14>  |   10.341|
+rd_reg_1<4>    |rd_data_1<15>  |   10.459|
+rd_reg_2<0>    |rd_data_2<0>   |   11.302|
+rd_reg_2<0>    |rd_data_2<1>   |   12.317|
+rd_reg_2<0>    |rd_data_2<2>   |   10.914|
+rd_reg_2<0>    |rd_data_2<3>   |   11.285|
+rd_reg_2<0>    |rd_data_2<4>   |   12.517|
+rd_reg_2<0>    |rd_data_2<5>   |   12.906|
+rd_reg_2<0>    |rd_data_2<6>   |   12.173|
+rd_reg_2<0>    |rd_data_2<7>   |   11.799|
+rd_reg_2<0>    |rd_data_2<8>   |   13.033|
+rd_reg_2<0>    |rd_data_2<9>   |   12.747|
+rd_reg_2<0>    |rd_data_2<10>  |   12.599|
+rd_reg_2<0>    |rd_data_2<11>  |   12.578|
+rd_reg_2<0>    |rd_data_2<12>  |   14.453|
+rd_reg_2<0>    |rd_data_2<13>  |   13.936|
+rd_reg_2<0>    |rd_data_2<14>  |   13.432|
+rd_reg_2<0>    |rd_data_2<15>  |   13.489|
+rd_reg_2<1>    |rd_data_2<0>   |   11.355|
+rd_reg_2<1>    |rd_data_2<1>   |   11.983|
+rd_reg_2<1>    |rd_data_2<2>   |   11.293|
+rd_reg_2<1>    |rd_data_2<3>   |   11.436|
+rd_reg_2<1>    |rd_data_2<4>   |   12.399|
+rd_reg_2<1>    |rd_data_2<5>   |   12.365|
+rd_reg_2<1>    |rd_data_2<6>   |   11.776|
+rd_reg_2<1>    |rd_data_2<7>   |   11.803|
+rd_reg_2<1>    |rd_data_2<8>   |   13.171|
+rd_reg_2<1>    |rd_data_2<9>   |   12.458|
+rd_reg_2<1>    |rd_data_2<10>  |   12.887|
+rd_reg_2<1>    |rd_data_2<11>  |   12.911|
+rd_reg_2<1>    |rd_data_2<12>  |   14.843|
+rd_reg_2<1>    |rd_data_2<13>  |   14.534|
+rd_reg_2<1>    |rd_data_2<14>  |   13.923|
+rd_reg_2<1>    |rd_data_2<15>  |   14.367|
+rd_reg_2<2>    |rd_data_2<0>   |    9.482|
+rd_reg_2<2>    |rd_data_2<1>   |    9.345|
+rd_reg_2<2>    |rd_data_2<2>   |    9.492|
+rd_reg_2<2>    |rd_data_2<3>   |    9.099|
+rd_reg_2<2>    |rd_data_2<4>   |   11.727|
+rd_reg_2<2>    |rd_data_2<5>   |   10.445|
+rd_reg_2<2>    |rd_data_2<6>   |   10.569|
+rd_reg_2<2>    |rd_data_2<7>   |   10.395|
+rd_reg_2<2>    |rd_data_2<8>   |   10.442|
+rd_reg_2<2>    |rd_data_2<9>   |   10.804|
+rd_reg_2<2>    |rd_data_2<10>  |   10.377|
+rd_reg_2<2>    |rd_data_2<11>  |   11.296|
+rd_reg_2<2>    |rd_data_2<12>  |   12.312|
+rd_reg_2<2>    |rd_data_2<13>  |   11.359|
+rd_reg_2<2>    |rd_data_2<14>  |   12.008|
+rd_reg_2<2>    |rd_data_2<15>  |   12.245|
+rd_reg_2<3>    |rd_data_2<0>   |   12.309|
+rd_reg_2<3>    |rd_data_2<1>   |   12.366|
+rd_reg_2<3>    |rd_data_2<2>   |   12.048|
+rd_reg_2<3>    |rd_data_2<3>   |   11.828|
+rd_reg_2<3>    |rd_data_2<4>   |   13.061|
+rd_reg_2<3>    |rd_data_2<5>   |   11.974|
+rd_reg_2<3>    |rd_data_2<6>   |   11.826|
+rd_reg_2<3>    |rd_data_2<7>   |   12.073|
+rd_reg_2<3>    |rd_data_2<8>   |   11.547|
+rd_reg_2<3>    |rd_data_2<9>   |   11.399|
+rd_reg_2<3>    |rd_data_2<10>  |   11.119|
+rd_reg_2<3>    |rd_data_2<11>  |   10.636|
+rd_reg_2<3>    |rd_data_2<12>  |    9.944|
+rd_reg_2<3>    |rd_data_2<13>  |   10.377|
+rd_reg_2<3>    |rd_data_2<14>  |    9.771|
+rd_reg_2<3>    |rd_data_2<15>  |   10.233|
+rd_reg_2<4>    |rd_data_2<0>   |   11.263|
+rd_reg_2<4>    |rd_data_2<1>   |   10.874|
+rd_reg_2<4>    |rd_data_2<2>   |   10.880|
+rd_reg_2<4>    |rd_data_2<3>   |   10.616|
+rd_reg_2<4>    |rd_data_2<4>   |   11.217|
+rd_reg_2<4>    |rd_data_2<5>   |   10.744|
+rd_reg_2<4>    |rd_data_2<6>   |   10.705|
+rd_reg_2<4>    |rd_data_2<7>   |   10.231|
+rd_reg_2<4>    |rd_data_2<8>   |   10.609|
+rd_reg_2<4>    |rd_data_2<9>   |   10.488|
+rd_reg_2<4>    |rd_data_2<10>  |   10.205|
+rd_reg_2<4>    |rd_data_2<11>  |   10.022|
+rd_reg_2<4>    |rd_data_2<12>  |    9.826|
+rd_reg_2<4>    |rd_data_2<13>  |   10.075|
+rd_reg_2<4>    |rd_data_2<14>  |    9.805|
+rd_reg_2<4>    |rd_data_2<15>  |   10.094|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Aug  8 11:31:52 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 415 MB
+
+
+

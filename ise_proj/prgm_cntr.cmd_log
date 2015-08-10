@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/dylon/MIPS_Datapath/prgm_cntr.xst" -ofn "/home/dylon/MIPS_Datapath/prgm_cntr.syr" 

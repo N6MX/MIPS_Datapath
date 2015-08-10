@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/dylon/MIPS_Datapath/instr_mem.xst" -ofn "/home/dylon/MIPS_Datapath/instr_mem.syr" 
+xst -intstyle ise -ifn "/home/dylon/MIPS_Datapath/instr_mem.xst" -ofn "/home/dylon/MIPS_Datapath/instr_mem.syr" 
+xst -intstyle ise -ifn "/home/dylon/MIPS_Datapath/instr_mem.xst" -ofn "/home/dylon/MIPS_Datapath/instr_mem.syr" 
+xst -intstyle ise -ifn "/home/dylon/MIPS_Datapath/instr_mem.xst" -ofn "/home/dylon/MIPS_Datapath/instr_mem.syr" 
+xst -intstyle ise -ifn "/home/dylon/MIPS_Datapath/instr_mem.xst" -ofn "/home/dylon/MIPS_Datapath/instr_mem.syr" 
+xst -intstyle ise -ifn "/home/dylon/MIPS_Datapath/instr_mem.xst" -ofn "/home/dylon/MIPS_Datapath/instr_mem.syr" 
+xst -intstyle ise -ifn "/home/dylon/MIPS_Datapath/instr_mem.xst" -ofn "/home/dylon/MIPS_Datapath/instr_mem.syr" 

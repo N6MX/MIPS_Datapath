@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/dylon/MIPS_Datapath/mux_2to1_tb_isim_beh.exe" -prj "/home/dylon/MIPS_Datapath/mux_2to1_tb_beh.prj" "work.mux_2to1_tb" 

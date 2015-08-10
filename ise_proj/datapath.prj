@@ -1,0 +1,3 @@
+vhdl work "prgm_cntr.vhd"
+vhdl work "instr_mem.vhd"
+vhdl work "datapath.vhd"

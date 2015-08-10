@@ -1,0 +1,4 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "Clk" LOC = F2;
