@@ -1,0 +1,2 @@
+vhdl work "mem_test.vhd"
+vhdl work "mem_test_tb.vhd"

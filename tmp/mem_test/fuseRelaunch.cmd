@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/dylon/GitHub/MIPS_Datapath/tmp/mem_test/mem_test_tb_isim_beh.exe" -prj "/home/dylon/GitHub/MIPS_Datapath/tmp/mem_test/mem_test_tb_beh.prj" "work.mem_test_tb" 
